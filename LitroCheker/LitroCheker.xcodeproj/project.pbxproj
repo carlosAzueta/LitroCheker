@@ -14,6 +14,7 @@
 		17E49A771DB53CCB00604123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E49A751DB53CCB00604123 /* LaunchScreen.storyboard */; };
 		17E49A821DB53CCB00604123 /* LitroChekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A811DB53CCB00604123 /* LitroChekerTests.swift */; };
 		17E49A8D1DB53CCB00604123 /* LitroChekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A8C1DB53CCB00604123 /* LitroChekerUITests.swift */; };
+		17E49A9B1DB53FA200604123 /* PersonasOBject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A9A1DB53FA200604123 /* PersonasOBject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		17E49A881DB53CCB00604123 /* LitroChekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitroChekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E49A8C1DB53CCB00604123 /* LitroChekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitroChekerUITests.swift; sourceTree = "<group>"; };
 		17E49A8E1DB53CCB00604123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E49A9A1DB53FA200604123 /* PersonasOBject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonasOBject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				17E49A6C1DB53CCB00604123 /* AppDelegate.swift */,
+				17E49A9A1DB53FA200604123 /* PersonasOBject.swift */,
 				17E49A6E1DB53CCB00604123 /* ViewController.swift */,
 				17E49A701DB53CCB00604123 /* Main.storyboard */,
 				17E49A731DB53CCB00604123 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				17E49A6F1DB53CCB00604123 /* ViewController.swift in Sources */,
 				17E49A6D1DB53CCB00604123 /* AppDelegate.swift in Sources */,
+				17E49A9B1DB53FA200604123 /* PersonasOBject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
