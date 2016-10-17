@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175B3AE21DB57C2700A536CE /* Captura de pantalla 2016-10-17 a la(s) 15.36.16.png in Resources */ = {isa = PBXBuildFile; fileRef = 175B3AE11DB57C2700A536CE /* Captura de pantalla 2016-10-17 a la(s) 15.36.16.png */; };
 		17E49A6D1DB53CCB00604123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A6C1DB53CCB00604123 /* AppDelegate.swift */; };
 		17E49A6F1DB53CCB00604123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A6E1DB53CCB00604123 /* ViewController.swift */; };
 		17E49A721DB53CCB00604123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E49A701DB53CCB00604123 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175B3AE11DB57C2700A536CE /* Captura de pantalla 2016-10-17 a la(s) 15.36.16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captura de pantalla 2016-10-17 a la(s) 15.36.16.png"; sourceTree = "<group>"; };
 		17E49A691DB53CCB00604123 /* LitroCheker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitroCheker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E49A6C1DB53CCB00604123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E49A6E1DB53CCB00604123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		17E49A6B1DB53CCB00604123 /* LitroCheker */ = {
 			isa = PBXGroup;
 			children = (
+				175B3AE11DB57C2700A536CE /* Captura de pantalla 2016-10-17 a la(s) 15.36.16.png */,
 				17E49A6C1DB53CCB00604123 /* AppDelegate.swift */,
 				17E49A9A1DB53FA200604123 /* PersonasOBject.swift */,
 				17E49A6E1DB53CCB00604123 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175B3AE21DB57C2700A536CE /* Captura de pantalla 2016-10-17 a la(s) 15.36.16.png in Resources */,
 				17E49A771DB53CCB00604123 /* LaunchScreen.storyboard in Resources */,
 				17E49A741DB53CCB00604123 /* Assets.xcassets in Resources */,
 				17E49A721DB53CCB00604123 /* Main.storyboard in Resources */,
@@ -509,6 +513,7 @@
 				17E49A931DB53CCB00604123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E49A941DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				17E49A961DB53CCB00604123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E49A971DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				17E49A991DB53CCB00604123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

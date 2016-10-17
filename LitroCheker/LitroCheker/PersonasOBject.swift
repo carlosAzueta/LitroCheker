@@ -9,5 +9,27 @@
 import UIKit
 
 class PersonasOBject: NSObject {
+    
+    var nombre:String = ""
+    var apellido:String = ""
+    
+    
+    
+    
+    func saluda()  {
+        
+        print("carlitos")
+    }
+    
+    func getDatosPersona(nombre:String){
+        
+        self.nombre = nombre
+        
+        print (nombre)
+        
+    
+    }
+    
+    
 
 }
