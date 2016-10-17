@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E49A6D1DB53CCB00604123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A6C1DB53CCB00604123 /* AppDelegate.swift */; };
+		17E49A6F1DB53CCB00604123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A6E1DB53CCB00604123 /* ViewController.swift */; };
+		17E49A721DB53CCB00604123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E49A701DB53CCB00604123 /* Main.storyboard */; };
+		17E49A741DB53CCB00604123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E49A731DB53CCB00604123 /* Assets.xcassets */; };
+		17E49A771DB53CCB00604123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E49A751DB53CCB00604123 /* LaunchScreen.storyboard */; };
+		17E49A821DB53CCB00604123 /* LitroChekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A811DB53CCB00604123 /* LitroChekerTests.swift */; };
+		17E49A8D1DB53CCB00604123 /* LitroChekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E49A8C1DB53CCB00604123 /* LitroChekerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E49A7E1DB53CCB00604123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E49A611DB53CCB00604123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E49A681DB53CCB00604123;
+			remoteInfo = LitroCheker;
+		};
+		17E49A891DB53CCB00604123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E49A611DB53CCB00604123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E49A681DB53CCB00604123;
+			remoteInfo = LitroCheker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E49A691DB53CCB00604123 /* LitroCheker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitroCheker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E49A6C1DB53CCB00604123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E49A6E1DB53CCB00604123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17E49A711DB53CCB00604123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17E49A731DB53CCB00604123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E49A761DB53CCB00604123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17E49A781DB53CCB00604123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E49A7D1DB53CCB00604123 /* LitroChekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitroChekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E49A811DB53CCB00604123 /* LitroChekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitroChekerTests.swift; sourceTree = "<group>"; };
+		17E49A831DB53CCB00604123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E49A881DB53CCB00604123 /* LitroChekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitroChekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E49A8C1DB53CCB00604123 /* LitroChekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitroChekerUITests.swift; sourceTree = "<group>"; };
+		17E49A8E1DB53CCB00604123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E49A661DB53CCB00604123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A7A1DB53CCB00604123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A851DB53CCB00604123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E49A601DB53CCA00604123 = {
+			isa = PBXGroup;
+			children = (
+				17E49A6B1DB53CCB00604123 /* LitroCheker */,
+				17E49A801DB53CCB00604123 /* LitroChekerTests */,
+				17E49A8B1DB53CCB00604123 /* LitroChekerUITests */,
+				17E49A6A1DB53CCB00604123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E49A6A1DB53CCB00604123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E49A691DB53CCB00604123 /* LitroCheker.app */,
+				17E49A7D1DB53CCB00604123 /* LitroChekerTests.xctest */,
+				17E49A881DB53CCB00604123 /* LitroChekerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E49A6B1DB53CCB00604123 /* LitroCheker */ = {
+			isa = PBXGroup;
+			children = (
+				17E49A6C1DB53CCB00604123 /* AppDelegate.swift */,
+				17E49A6E1DB53CCB00604123 /* ViewController.swift */,
+				17E49A701DB53CCB00604123 /* Main.storyboard */,
+				17E49A731DB53CCB00604123 /* Assets.xcassets */,
+				17E49A751DB53CCB00604123 /* LaunchScreen.storyboard */,
+				17E49A781DB53CCB00604123 /* Info.plist */,
+			);
+			path = LitroCheker;
+			sourceTree = "<group>";
+		};
+		17E49A801DB53CCB00604123 /* LitroChekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E49A811DB53CCB00604123 /* LitroChekerTests.swift */,
+				17E49A831DB53CCB00604123 /* Info.plist */,
+			);
+			path = LitroChekerTests;
+			sourceTree = "<group>";
+		};
+		17E49A8B1DB53CCB00604123 /* LitroChekerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17E49A8C1DB53CCB00604123 /* LitroChekerUITests.swift */,
+				17E49A8E1DB53CCB00604123 /* Info.plist */,
+			);
+			path = LitroChekerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E49A681DB53CCB00604123 /* LitroCheker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E49A911DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroCheker" */;
+			buildPhases = (
+				17E49A651DB53CCB00604123 /* Sources */,
+				17E49A661DB53CCB00604123 /* Frameworks */,
+				17E49A671DB53CCB00604123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitroCheker;
+			productName = LitroCheker;
+			productReference = 17E49A691DB53CCB00604123 /* LitroCheker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E49A7C1DB53CCB00604123 /* LitroChekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E49A941DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerTests" */;
+			buildPhases = (
+				17E49A791DB53CCB00604123 /* Sources */,
+				17E49A7A1DB53CCB00604123 /* Frameworks */,
+				17E49A7B1DB53CCB00604123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E49A7F1DB53CCB00604123 /* PBXTargetDependency */,
+			);
+			name = LitroChekerTests;
+			productName = LitroChekerTests;
+			productReference = 17E49A7D1DB53CCB00604123 /* LitroChekerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17E49A871DB53CCB00604123 /* LitroChekerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E49A971DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerUITests" */;
+			buildPhases = (
+				17E49A841DB53CCB00604123 /* Sources */,
+				17E49A851DB53CCB00604123 /* Frameworks */,
+				17E49A861DB53CCB00604123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E49A8A1DB53CCB00604123 /* PBXTargetDependency */,
+			);
+			name = LitroChekerUITests;
+			productName = LitroChekerUITests;
+			productReference = 17E49A881DB53CCB00604123 /* LitroChekerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E49A611DB53CCB00604123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Carlos Azueta";
+				TargetAttributes = {
+					17E49A681DB53CCB00604123 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					17E49A7C1DB53CCB00604123 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E49A681DB53CCB00604123;
+					};
+					17E49A871DB53CCB00604123 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E49A681DB53CCB00604123;
+					};
+				};
+			};
+			buildConfigurationList = 17E49A641DB53CCB00604123 /* Build configuration list for PBXProject "LitroCheker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E49A601DB53CCA00604123;
+			productRefGroup = 17E49A6A1DB53CCB00604123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E49A681DB53CCB00604123 /* LitroCheker */,
+				17E49A7C1DB53CCB00604123 /* LitroChekerTests */,
+				17E49A871DB53CCB00604123 /* LitroChekerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E49A671DB53CCB00604123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E49A771DB53CCB00604123 /* LaunchScreen.storyboard in Resources */,
+				17E49A741DB53CCB00604123 /* Assets.xcassets in Resources */,
+				17E49A721DB53CCB00604123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A7B1DB53CCB00604123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A861DB53CCB00604123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E49A651DB53CCB00604123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E49A6F1DB53CCB00604123 /* ViewController.swift in Sources */,
+				17E49A6D1DB53CCB00604123 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A791DB53CCB00604123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E49A821DB53CCB00604123 /* LitroChekerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E49A841DB53CCB00604123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E49A8D1DB53CCB00604123 /* LitroChekerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E49A7F1DB53CCB00604123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E49A681DB53CCB00604123 /* LitroCheker */;
+			targetProxy = 17E49A7E1DB53CCB00604123 /* PBXContainerItemProxy */;
+		};
+		17E49A8A1DB53CCB00604123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E49A681DB53CCB00604123 /* LitroCheker */;
+			targetProxy = 17E49A891DB53CCB00604123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E49A701DB53CCB00604123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E49A711DB53CCB00604123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17E49A751DB53CCB00604123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E49A761DB53CCB00604123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E49A8F1DB53CCB00604123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E49A901DB53CCB00604123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E49A921DB53CCB00604123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LitroCheker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroCheker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17E49A931DB53CCB00604123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LitroCheker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroCheker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17E49A951DB53CCB00604123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LitroChekerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroChekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LitroCheker.app/LitroCheker";
+			};
+			name = Debug;
+		};
+		17E49A961DB53CCB00604123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LitroChekerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroChekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LitroCheker.app/LitroCheker";
+			};
+			name = Release;
+		};
+		17E49A981DB53CCB00604123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LitroChekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroChekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LitroCheker;
+			};
+			name = Debug;
+		};
+		17E49A991DB53CCB00604123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LitroChekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casita.LitroChekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LitroCheker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E49A641DB53CCB00604123 /* Build configuration list for PBXProject "LitroCheker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E49A8F1DB53CCB00604123 /* Debug */,
+				17E49A901DB53CCB00604123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E49A911DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroCheker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E49A921DB53CCB00604123 /* Debug */,
+				17E49A931DB53CCB00604123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17E49A941DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E49A951DB53CCB00604123 /* Debug */,
+				17E49A961DB53CCB00604123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17E49A971DB53CCB00604123 /* Build configuration list for PBXNativeTarget "LitroChekerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E49A981DB53CCB00604123 /* Debug */,
+				17E49A991DB53CCB00604123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E49A611DB53CCB00604123 /* Project object */;
+}
